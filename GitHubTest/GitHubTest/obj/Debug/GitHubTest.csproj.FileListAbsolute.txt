@@ -82,3 +82,5 @@ D:\Projects\mvcedu2\MyFirstProject\GitHubTest\GitHubTest\obj\Debug\GitHubTest.dl
 D:\Projects\mvcedu2\MyFirstProject\GitHubTest\GitHubTest\obj\Debug\GitHubTest.pdb
 D:\Projects\mvcedu2\MyFirstProject\GitHubTest\GitHubTest\obj\Debug\GitHubTest.Migrations.InitialModel.resources
 D:\Projects\mvcedu2\MyFirstProject\GitHubTest\GitHubTest\obj\Debug\GitHubTest.csproj.GenerateResource.Cache
+D:\Projects\mvcedu2\MyFirstProject\GitHubTest\GitHubTest\obj\Debug\GitHubTest.Migrations.CreateGigTable.resources
+D:\Projects\mvcedu2\MyFirstProject\GitHubTest\GitHubTest\obj\Debug\GitHubTest.Migrations.OverrideConventionsForGigsAndGenres.resources
