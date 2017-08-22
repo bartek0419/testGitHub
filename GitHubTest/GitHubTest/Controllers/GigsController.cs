@@ -1,7 +1,6 @@
 ﻿using GitHubTest.Models;
 using GitHubTest.ViewModels;
 using Microsoft.AspNet.Identity;
-using System;
 using System.Linq;
 using System.Web.Mvc;
 
@@ -32,17 +31,23 @@ namespace GitHubTest.Controllers
         [HttpPost]
         public ActionResult Create(GigFormViewModel viewModel)
         {
-         var gig = new Gig
-         {
-             ArtistId = User.Identity.GetUserId(),
-             Venue = viewModel.Venue,
-             GenreId = viewModel.Genre,
-             DateTime = viewModel.DateTime 
-         };
+            if (!ModelState.IsValid)
+            {
+                viewModel.Genres = _context.Genres.ToList();
+                return View("Create", viewModel);
+            }
 
-         _context.Gigs.Add(gig);
-         _context.SaveChanges();
-         return RedirectToAction("Index", "Home");
+            var gig = new Gig
+            {
+                ArtistId = User.Identity.GetUserId(),
+                Venue = viewModel.Venue,
+                GenreId = viewModel.Genre,
+                DateTime = viewModel.GetDateTime()
+            };
+
+            _context.Gigs.Add(gig);
+            _context.SaveChanges();
+            return RedirectToAction("Index", "Home");
         }
     }
 }
