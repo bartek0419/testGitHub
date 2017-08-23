@@ -86,3 +86,4 @@ D:\Projects\mvcedu2\MyFirstProject\GitHubTest\GitHubTest\obj\Debug\GitHubTest.Mi
 D:\Projects\mvcedu2\MyFirstProject\GitHubTest\GitHubTest\obj\Debug\GitHubTest.Migrations.OverrideConventionsForGigsAndGenres.resources
 D:\Projects\mvcedu2\MyFirstProject\GitHubTest\GitHubTest\obj\Debug\GitHubTest.Migrations.PopulateGenresTable.resources
 D:\Projects\mvcedu2\MyFirstProject\GitHubTest\GitHubTest\obj\Debug\GitHubTest.Migrations.AddForeignKeysToGigModel.resources
+D:\Projects\mvcedu2\MyFirstProject\GitHubTest\GitHubTest\obj\Debug\GitHubTest.Migrations.AddpropertynameforapplicationUser.resources
