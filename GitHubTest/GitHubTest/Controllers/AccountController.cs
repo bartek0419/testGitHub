@@ -6,6 +6,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using GitHubTest.ViewModels;
+using GitHubTest.ViewModels.Account;
+using SendCodeViewModel = GitHubTest.ViewModels.Account.SendCodeViewModel;
 
 namespace GitHubTest.Controllers
 {

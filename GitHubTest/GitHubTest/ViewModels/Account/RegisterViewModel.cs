@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace GitHubTest.Models
+namespace GitHubTest.ViewModels.Account
 {
     public class RegisterViewModel
     {
